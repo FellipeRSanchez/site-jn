@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Concreteira JN - Concreto usinado e argamassa com alta tecnologia em Birigui-SP.">
+	<title>Concreteira — Grupo JN</title>
+	<link href="_css/estilo.css" rel="stylesheet">
+	<link rel="icon" href="imagens/logo_JN.png" type="image/png">
+</head>
+
+<body>
+
+	<!-- NAVBAR -->
+	<nav class="navbar" id="navbar">
+		<div class="container">
+			<a href="index.html" class="navbar-logo">
+				<img src="imagens/logo_JN.png" alt="Grupo JN">
+			</a>
+			<div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+				<span></span><span></span><span></span>
+			</div>
+			<div class="navbar-menu" id="navbarMenu">
+				<a href="index.html">Grupo JN</a>
+				<a href="construtora.html">Construtora</a>
+				<a href="pedreira.html">Pedreira</a>
+				<a href="concreteira.html" class="active">Concreteira</a>
+				<a href="posto.html">Posto</a>
+				<a href="contato.html">Contato</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- HERO -->
+	<section class="hero hero-inner">
+		<div class="hero-bg">
+			<img src="./imagens/Concreteira/FOTOS DA USINA DE CONCRETO JANEIRO 2014 015.jpg" alt="Concreteira JN">
+		</div>
+		<div class="hero-overlay"></div>
+		<div class="hero-content">
+			<h1>Concreteira JN</h1>
+			<p>Concreto usinado e argamassa com equipamentos de alta tecnologia e entrega especializada.</p>
+		</div>
+	</section>
+
+	<!-- SOBRE -->
+	<section class="section about">
+		<div class="container">
+			<h2 class="section-title">Concreteira JN</h2>
+			<p class="section-subtitle">Concretagem e bombeamento para a construção civil</p>
+
+			<div class="about-content animate-on-scroll">
+				<div class="about-icon">
+					<img src="./imagens/Icones/caminhao-de-concreto.png" alt="Concreto">
+				</div>
+				<div class="about-text">
+					<p>A Concreteira JN oferece serviços de concretagem e bombeamento de concreto para o setor da
+						construção civil na produção de todos os tipos de concreto usinado e argamassa. Conta com
+						equipamentos de alta tecnologia, veículos especiais para o transporte e bombas para aplicação do
+						concreto.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CONTATO -->
+	<section class="section contact-section">
+		<div class="container">
+			<h2 class="section-title">Contato</h2>
+			<div class="contact-grid" style="max-width: 500px; margin: var(--space-xl) auto 0;">
+				<div class="contact-card animate-on-scroll">
+					<div class="contact-card-header">
+						<img src="./imagens/Icones/contato.png" alt="Contato">
+						<h3>Concreteira JN</h3>
+					</div>
+					<div class="contact-info">
+						<div class="contact-info-item">
+							<img src="./imagens/Icones/telefone.png" alt="Telefone">
+							<a href="tel:+551836499400">(18) 3649-9400</a>
+						</div>
+						<div class="contact-info-item">
+							<img src="./imagens/Icones/telefone.png" alt="Telefone">
+							<span><a href="tel:+5518996274358">(18) 99627-4358</a> — Edson</span>
+						</div>
+						<div class="contact-info-item">
+							<img src="./imagens/Icones/o-email.png" alt="E-mail">
+							<a href="mailto:jnconcreto@grupojn.com.br">jnconcreto@grupojn.com.br</a>
+						</div>
+						<div class="contact-info-item">
+							<img src="./imagens/Icones/endereco.png" alt="Endereço">
+							<span>Rodovia Marechal Rondon, Km 521 — Birigui-SP</span>
+						</div>
+					</div>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d929.32583531001!2d-50.37152762483136!3d-21.299026966277!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1582829358267!5m2!1spt-BR!2sbr"
+						allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- GALERIA -->
+	<section class="section gallery-section">
+		<div class="container">
+			<h2 class="section-title">Galeria de Fotos</h2>
+			<p class="section-subtitle">Conheça nossos equipamentos e frota</p>
+
+			<div class="gallery-grid">
+				<div class="gallery-item animate-on-scroll delay-1" onclick="openLightbox(this)">
+					<img src="./imagens/Concreteira/Concreteira1.jpg" alt="Usina Concreto">
+					<div class="gallery-item-overlay"><span>Usina Concreto</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-2" onclick="openLightbox(this)">
+					<img src="./imagens/Concreteira/FOTOS DA USINA DE CONCRETO JANEIRO 2014 001.jpg" alt="Frota">
+					<div class="gallery-item-overlay"><span>Frota</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-3" onclick="openLightbox(this)">
+					<img src="./imagens/Concreteira/FOTOS DA USINA DE CONCRETO JANEIRO 2014 012.jpg" alt="Bomba Lança">
+					<div class="gallery-item-overlay"><span>Bomba Lança</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-4" onclick="openLightbox(this)">
+					<img src="./imagens/Concreteira/FOTOS DA USINA DE CONCRETO JANEIRO 2014 014.jpg"
+						alt="Usina Concreto">
+					<div class="gallery-item-overlay"><span>Usina Concreto</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-1" onclick="openLightbox(this)">
+					<img src="./imagens/Concreteira/DSC01970.JPG" alt="Betoneira">
+					<div class="gallery-item-overlay"><span>Betoneira</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-2" onclick="openLightbox(this)">
+					<img src="./imagens/Concreteira/Concreteira17.jpg" alt="Usina Concreto">
+					<div class="gallery-item-overlay"><span>Usina Concreto</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- LIGHTBOX -->
+	<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+		<button class="lightbox-close" aria-label="Fechar">&times;</button>
+		<img id="lightboxImg" src="" alt="Foto ampliada">
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-brand">
+				<img src="imagens/logo_JN.png" alt="Grupo JN">
+			</div>
+			<div class="footer-links">
+				<a href="index.html">Grupo JN</a>
+				<a href="construtora.html">Construtora</a>
+				<a href="pedreira.html">Pedreira</a>
+				<a href="concreteira.html">Concreteira</a>
+				<a href="posto.html">Posto</a>
+				<a href="contato.html">Contato</a>
+			</div>
+			<hr class="footer-divider">
+			<p>Copyright&copy; 2026 — Grupo JN — Todos os Direitos Reservados</p>
+		</div>
+	</footer>
+
+	<script>
+		window.addEventListener('scroll', () => {
+			document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+		});
+		function toggleMenu() {
+			document.getElementById('menuToggle').classList.toggle('active');
+			document.getElementById('navbarMenu').classList.toggle('active');
+		}
+		document.querySelectorAll('.navbar-menu a').forEach(link => {
+			link.addEventListener('click', () => {
+				document.getElementById('menuToggle').classList.remove('active');
+				document.getElementById('navbarMenu').classList.remove('active');
+			});
+		});
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+		}, { threshold: 0.1 });
+		document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+		function openLightbox(el) {
+			document.getElementById('lightboxImg').src = el.querySelector('img').src;
+			document.getElementById('lightbox').classList.add('active');
+			document.body.style.overflow = 'hidden';
+		}
+		function closeLightbox() {
+			document.getElementById('lightbox').classList.remove('active');
+			document.body.style.overflow = '';
+		}
+		document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+	</script>
+
+</body>
+
+</html>

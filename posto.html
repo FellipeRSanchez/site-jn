@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="JN Posto de Combustíveis - Shell em Birigui-SP.">
+	<title>Posto — Grupo JN</title>
+	<link href="_css/estilo.css" rel="stylesheet">
+	<link rel="icon" href="imagens/logo_JN.png" type="image/png">
+</head>
+
+<body>
+	<nav class="navbar" id="navbar">
+		<div class="container">
+			<a href="index.html" class="navbar-logo"><img src="imagens/logo_JN.png" alt="Grupo JN"></a>
+			<div class="menu-toggle" id="menuToggle" onclick="toggleMenu()"><span></span><span></span><span></span>
+			</div>
+			<div class="navbar-menu" id="navbarMenu">
+				<a href="index.html">Grupo JN</a><a href="construtora.html">Construtora</a><a
+					href="pedreira.html">Pedreira</a><a href="concreteira.html">Concreteira</a><a href="posto.html"
+					class="active">Posto</a><a href="contato.html">Contato</a>
+			</div>
+		</div>
+	</nav>
+	<section class="hero hero-inner">
+		<div class="hero-bg"><img src="./imagens/Posto/IMG-20200227-WA0026.jpg" alt="Posto JN"></div>
+		<div class="hero-overlay"></div>
+		<div class="hero-content">
+			<h1>JN Posto de Combustíveis</h1>
+			<p>Combustíveis e lubrificantes Shell com loja de conveniência completa.</p>
+		</div>
+	</section>
+	<section class="section about">
+		<div class="container">
+			<h2 class="section-title">Posto de Combustíveis</h2>
+			<p class="section-subtitle">Qualidade Shell com conveniência e conforto</p>
+			<div class="about-content animate-on-scroll">
+				<div class="about-icon"><img src="./imagens/Icones/posto-de-gasolina.png" alt="Posto"></div>
+				<div class="about-text">
+					<p>JN Posto de combustível está localizado à beira da Rod. Marechal Rondon com fácil acesso para a
+						estrada e para a cidade de Birigui. Trabalhamos com combustíveis e lubrificantes exclusivamente
+						Shell. Com uma loja de conveniência completa com os melhores produtos, ambiente climatizado e
+						Wifi.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section contact-section">
+		<div class="container">
+			<h2 class="section-title">Contato</h2>
+			<div class="contact-grid" style="max-width:500px;margin:var(--space-xl) auto 0;">
+				<div class="contact-card animate-on-scroll">
+					<div class="contact-card-header"><img src="./imagens/Icones/contato.png" alt="Contato">
+						<h3>JN Posto</h3>
+					</div>
+					<div class="contact-info">
+						<div class="contact-info-item"><img src="./imagens/Icones/telefone.png" alt="Tel"><a
+								href="tel:+551836499402">(18) 3649-9402</a></div>
+						<div class="contact-info-item"><img src="./imagens/Icones/o-email.png" alt="Email"><a
+								href="mailto:postojn@grupojn.com.br">postojn@grupojn.com.br</a></div>
+						<div class="contact-info-item"><img src="./imagens/Icones/endereco.png" alt="End"><span>Rua
+								Alameda Nevio de Cunto, 835 — Colinas — Birigui-SP</span></div>
+					</div>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d464.6602080717486!2d-50.37012865087364!3d-21.299883936026767!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1582828356599!5m2!1spt-BR!2sbr"
+						allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section gallery-section">
+		<div class="container">
+			<h2 class="section-title">Galeria de Fotos</h2>
+			<p class="section-subtitle">Conheça nosso posto e loja de conveniência</p>
+			<div class="gallery-grid">
+				<div class="gallery-item animate-on-scroll delay-1" onclick="openLightbox(this)"><img
+						src="./imagens/Posto/IMG-20200227-WA0029.jpg" alt="Posto">
+					<div class="gallery-item-overlay"><span>Posto</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-2" onclick="openLightbox(this)"><img
+						src="./imagens/Posto/IMG-20200227-WA0031.jpg" alt="Posto">
+					<div class="gallery-item-overlay"><span>Posto</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-3" onclick="openLightbox(this)"><img
+						src="./imagens/Posto/IMG-20200227-WA0027.jpg" alt="Posto">
+					<div class="gallery-item-overlay"><span>Posto</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-4" onclick="openLightbox(this)"><img
+						src="./imagens/Posto/IMG-20200227-WA0028.jpg" alt="Posto">
+					<div class="gallery-item-overlay"><span>Posto</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-1" onclick="openLightbox(this)"><img
+						src="./imagens/Posto/IMG-20200227-WA0032.jpg" alt="Posto">
+					<div class="gallery-item-overlay"><span>Posto</span></div>
+				</div>
+				<div class="gallery-item animate-on-scroll delay-2" onclick="openLightbox(this)"><img
+						src="./imagens/Posto/IMG-20200227-WA0025.jpg" alt="Posto">
+					<div class="gallery-item-overlay"><span>Posto</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="lightbox" id="lightbox" onclick="closeLightbox()"><button class="lightbox-close">&times;</button><img
+			id="lightboxImg" src="" alt="Foto ampliada"></div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-brand"><img src="imagens/logo_JN.png" alt="Grupo JN"></div>
+			<div class="footer-links"><a href="index.html">Grupo JN</a><a href="construtora.html">Construtora</a><a
+					href="pedreira.html">Pedreira</a><a href="concreteira.html">Concreteira</a><a
+					href="posto.html">Posto</a><a href="contato.html">Contato</a></div>
+			<hr class="footer-divider">
+			<p>Copyright&copy; 2026 — Grupo JN — Todos os Direitos Reservados</p>
+		</div>
+	</footer>
+	<script>
+		window.addEventListener('scroll', () => { document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50) });
+		function toggleMenu() { document.getElementById('menuToggle').classList.toggle('active'); document.getElementById('navbarMenu').classList.toggle('active') }
+		document.querySelectorAll('.navbar-menu a').forEach(l => l.addEventListener('click', () => { document.getElementById('menuToggle').classList.remove('active'); document.getElementById('navbarMenu').classList.remove('active') }));
+		const observer = new IntersectionObserver(e => e.forEach(en => { if (en.isIntersecting) en.target.classList.add('visible') }), { threshold: 0.1 });
+		document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+		function openLightbox(el) { document.getElementById('lightboxImg').src = el.querySelector('img').src; document.getElementById('lightbox').classList.add('active'); document.body.style.overflow = 'hidden' }
+		function closeLightbox() { document.getElementById('lightbox').classList.remove('active'); document.body.style.overflow = '' }
+		document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox() });
+	</script>
+</body>
+
+</html>
